@@ -9,7 +9,7 @@ object Q5 extends App{
    func(name)
  }
   println(formatNames("Benny")(toUpper(_)))
-  println(formatNames("Niroshan")(toLower(_)))
+  println(formatNames("Niroshan".substring(0,2))(toUpper(_))+"Niroshan".substring(2,8))
   println(formatNames("Saman")(toLower(_)))
-  println(formatNames("Kumara")(toUpper(_))) 
+  println("Kumara".substring(0,5)+formatNames("Kumara".substring(5))(toUpper(_))) 
 }
