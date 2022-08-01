@@ -1,4 +1,3 @@
-package Assignment3
 import scala.io.StdIn.readInt;
 
 object Q4 extends App{
