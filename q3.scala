@@ -1,5 +1,3 @@
-package Assignment3
-
 object Q5 extends App{
   def toUpper(a:String):String={
       a.toUpperCase()
